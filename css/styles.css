@@ -1,0 +1,155 @@
+/************************************* TAG Selectors *************************************/
+
+body {
+    font-family: 'Merriweather', serif;
+    margin: 0;
+}
+
+div {
+    text-align: center;
+}
+
+h1 {
+    color: #B67162;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    margin: 3.125rem auto 0 auto;
+    text-align: center;
+}
+
+h2 {
+    color: #B67162;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    margin: 10px auto;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #BD4B4B;
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+    border: dotted #C1CFC0 6px;
+    border-bottom: none;
+    margin: 100px auto;
+    padding: 0;
+    width: 6%;
+}
+
+a {
+    color: #BD4B4B;
+}
+
+p {
+    color: #40514E;
+    line-height: 2;
+    margin: 0;
+    padding: 0;
+}
+
+/************************************* CLASS Selectors *************************************/
+
+.pro {
+    text-decoration: underline;
+}
+
+.top-container {
+    background-color: #F8EDED;
+    position: relative;
+    padding: 100px 0 0;
+}
+
+.bottom-container {
+    background-color: #D6B0B1;
+    padding: 40px 0 20px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    bottom: 300px;
+    left: 250px;
+}
+
+.top-cloud {
+    position: absolute;
+    top: 40px;
+    right: 300px;
+}
+
+.contact-me {
+    margin: 0 auto 100px;
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+.profile {
+    margin: 100px auto;
+}
+
+.skills {
+    padding: 0;
+}
+
+.skills-row {
+    margin: 100px auto;
+    text-align: left;
+    width: 50%;
+}
+
+.test-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.data-img {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.copyright {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    margin-bottom: 0;
+    padding: 20px;
+}
+
+.footer-link {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    margin: auto 20px;
+    text-decoration-line: none;
+}
+
+.footer-link:hover {
+    color: white;
+}
+
+.contact-btn {
+    background: linear-gradient(#EFB7B7, #BD4B4B);
+    border-radius: 8px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.15rem;
+    font-weight: bolder;
+    padding: 10px 20px;
+    text-decoration-line: none;
+}
+
+.contact-btn:hover {
+    background: linear-gradient(#F1C6D3, #EA9ABB);
+}
+
+.contact-message {
+    margin: 40px auto 60px;
+    width: 40%;
+}
+
+/************************************* ID Selectors *************************************/
